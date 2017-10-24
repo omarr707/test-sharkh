@@ -1,0 +1,191 @@
+
+body {
+    background-color:#ecf0f1;
+    font-family: 'Changa', sans-serif
+    
+}
+
+/* About Us */
+
+.briaf {
+    margin-top:30px;
+    margin-bottom:30px;
+    padding-top:30px;
+    padding-bottom:30px;
+    height: 300px;
+    text-align: right
+}
+.briaf .text-center {
+    padding:30px 0
+}
+.briaf ~ p {
+    font-weight: bold;
+    font-size: 30px
+}
+/* About Us */
+
+
+/* Our Skill */
+
+.skill {
+    background-color:white;
+    padding:80px 0;
+    margin-top:40px;
+    color: #34495e
+}
+
+.skill img {
+    padding:20px 0
+}
+/* Our Skill */
+/* simple Speach */
+.simpleSpeach {
+    background-color: #a2a19f;
+    padding:40px 0;
+    text-align: center;
+    color: #ecf0f1;
+    font-size: 3em
+}
+
+/* simple Speach */
+
+/* our Work  */
+.ourWork {
+    padding: 50px 0 0
+}
+/* our Work */
+
+/* simple Motive */
+
+.simpleMotive {
+    background: url('../photos/jez-timms-65119.jpg');
+    background-position: center;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    color: #ecf0f1
+}
+.simpleMotive h1 {
+    padding-top: 139px;
+    color: #ecf0f1
+}
+
+/* simple Motive */
+
+/* our Exeprince */
+
+.ourExeprince {
+    margin: 0 0 40px;
+    padding: 40px 0;
+    background: #34495e;
+    color:#ecf0f1
+}
+
+ourExeprince .category {
+background: #2c3e50    
+}
+
+.ourExeprince h1 {
+    margin:30px 0    
+}
+ourExeprince .category ~ p {
+    margin: 40px 0;
+    border-bottom: 1px solid #ecf0f1
+}
+
+/* our Exeprince */
+/* contenct Us */
+.contenctUs  {
+    margin: 40px 0;
+    padding:40px 0
+}
+.contenctUs h1 {
+    margin-bottom: 30px
+}
+/* contenct Us */
+
+
+/* Info Contenct */
+.info-contenct {
+    padding: 80px 10px 80px 0;
+    border-right: 1px solid #DDD;
+    font-size: 15px
+}
+/* Info Contenct */
+
+/* Map */
+
+.ourMap {
+    margin: 40px 0
+}
+
+.ourMap #map {
+  height: 500px;
+  width: 100%
+}
+
+/* Map */
+
+/* ask Us */
+.askUs {
+    background: #34495e;
+    color:#ecf0f1;
+    padding: 70px 0
+}
+.askUs .socil ul li,
+.footer ul li {
+    text-decoration: none;
+    float: right;
+    text-align: center
+}
+.askUs ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    color:#ecf0f1
+}
+.askUs .listOffer ul li {
+    padding: 5px 0
+}
+.askUs .listOffer ul li a:hover {
+    color: #f1c40f
+}
+
+.askUs .personalContenct p a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #ecf0f1
+}
+
+.askUs .personalContenct p a:hover {
+    color:#f1c40f
+}
+
+/* ask Us */
+
+/* footer contect */
+.footer {
+    background: #2c3e50;
+    color: #ecf0f1;
+    padding-left:20px;
+    
+}
+.footer ul li
+.footer p {
+    padding: 20px 0 0
+}
+/* footer contect */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
