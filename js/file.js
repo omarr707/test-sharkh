@@ -1,5 +1,5 @@
-/* global $, smoothScroll , Typed */
-
+/* global $, smoothScroll , Typed, WOW */
+ new WOW().init();
 $('.slick').slick({
     dots: true,
     autoplay: true,
@@ -12,24 +12,6 @@ $('.slick').slick({
     infinite: true,
     slidesToShow: 3,
 });
-$('#carousel').slick({
-    arrows: true,
-    slidesToShow: 3,
-    autoplay: true,
-    autoplaySpeed:2500,
-    speed: 500,
-    variableWidth: true,
-    onAfterChange: function(){ 
-          var cat = ($('#carousel').slickCurrentSlide()) + 1;
-          $('.client-text > li').hide();
-          $('.client-text > li:nth-child('+ cat +')').show();
-    }
-});
-
-
-
-  $('.client-text > li').hide();
-  $('.client-text > li:first-child').show();
 
 $('.popularFood').slick({
     dots: true,
@@ -44,6 +26,18 @@ $('.popularFood').slick({
 
 });
 
+$('.popularFood-en').slick({
+    dots: false,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    fade: true,
+    speed: 2000,
+    cssEase: 'linear',
+    rtl: true,
+    arrows:false,
+    infinite: true,
+
+});
 
     // This For Scrolling 
 $("html").niceScroll();
@@ -60,6 +54,17 @@ $("html").niceScroll();
             strings: [
                 "خبرة دامت اكثر من 8 سنين في تقديم خدمات الاعاشة...",
                 "خبراتنا دامت لعقود...",
+                
+            ],
+            typeSpeed: 100,
+            loop: true,
+            loopCount: null
+        });
+
+ Typed.new(".introE", {
+            strings: [
+                "Our experience of more than 8 years in the provision of rations...",
+                "Our experiences have lasted for decades...",
                 
             ],
             typeSpeed: 100,

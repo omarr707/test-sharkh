@@ -5,6 +5,7 @@ body {
     
 }
 
+
 /* About Us */
 
 .briaf {
@@ -53,6 +54,9 @@ body {
 .ourWork {
     padding: 50px 0 0
 }
+.ourWork .imgDev {
+    margin-bottom: 20px
+}
 /* our Work */
 
 /* simple Motive */
@@ -69,6 +73,9 @@ body {
 .simpleMotive h1 {
     padding-top: 139px;
     color: #ecf0f1
+}
+.simpleMotive p {
+    padding-bottom: 30px
 }
 
 /* simple Motive */
@@ -110,6 +117,12 @@ ourExeprince .category ~ p {
 .info-contenct {
     padding: 80px 10px 80px 0;
     border-right: 1px solid #DDD;
+    font-size: 15px
+}
+
+info-contenct-en {
+        padding: 80px 10px 80px 0;
+    border-left: 1px solid #DDD;
     font-size: 15px
 }
 /* Info Contenct */
